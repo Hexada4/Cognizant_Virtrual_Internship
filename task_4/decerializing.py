@@ -2,7 +2,7 @@ import dill
 
 # IT WORKS
 def main():
-    file_name = '/home/jollyreap/old_linux/ML_Engineer/Cognizant_intership/task_4/model/fr_stock_predictor.pkl'
+    file_name = 'your_path/task_4/model/fr_stock_predictor.pkl'
     with open(file_name, 'rb') as file:
         model = dill.load(file)
 
